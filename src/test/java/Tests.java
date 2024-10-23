@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 public class Tests {
 
     @Test
-    public void test() {
+    public void testInstance1() {
         double score = Main.experiment("src/main/resources/instances/instance1.txt");
         Assertions.assertTrue(score >= 0.0);
     }
